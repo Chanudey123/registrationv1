@@ -35,7 +35,7 @@ public class RegistrationService {
         Registration savedEntity = registrationRepository.save(registration);
 
         //copy entity to dto
-       RegistrationDto dto=mapToDto(savedEntity);
+        RegistrationDto dto=mapToDto(savedEntity);
         return dto;
     }
 
